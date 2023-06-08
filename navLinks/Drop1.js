@@ -1,7 +1,8 @@
 import React, { useEffect, useLayoutEffect, useRef, useState } from "react";
 import { Menu, MenuButton, MenuList, MenuItem } from "@reach/menu-button";
+import { RiArrowDropDownLine } from "react-icons/ri";
 
-export default function CategoryDropdown(props) {
+export default function Drop1(props) {
   let { title } = props;
 
   let [isOverButton, setIsOverButton] = useState(false);
@@ -41,14 +42,14 @@ export default function CategoryDropdown(props) {
         }}
         onClick={() => {
           setHasClicked(true);
-        //   setIsOpen(!isOpen);
+          setIsOpen(!isOpen);
         }}
         onKeyDown={() => {
           setIsOpen(!isOpen);
         }}
-        className="navbar_menu"
+        className="navbar_menuu"
       >
-        <span>{title}</span> <span aria-hidden>▾</span>
+        <span className="nav_title">{title}</span><span aria-hidden>▾</span>
       </MenuButton>
       <MenuList
         onMouseEnter={event => {
@@ -71,6 +72,13 @@ export default function CategoryDropdown(props) {
           }}
         >
           Action 2
+        </MenuItem>
+        <MenuItem
+          onSelect={() => {
+            setIsOpen(false);
+          }}
+        >
+          Action 3
         </MenuItem>
       </MenuList>
     </Menu>

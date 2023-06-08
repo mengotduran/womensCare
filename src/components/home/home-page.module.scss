@@ -1,0 +1,201 @@
+.home_page {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+// GENERAL HEADER STYLE
+.general_header_style {
+  border: 2px solid red;
+  display: flex;
+  padding: 50px 65px 0px;
+  align-items: center;
+  gap: 15px;
+  span {
+    border: 1px solid #e27020;
+    height: 50px;
+  }
+  h3 {
+    font-size: 30px;
+    font-weight: 600;
+  }
+}
+
+// SECTION 1 STYLES (BANNER STYLES)
+.banner {
+  position: relative;
+  .banner_logo {
+    // border: 2px solid red;
+    background-image: "linear-gradient(267deg, #6ea38feb, #efeded),url('images/img 3.jpg')";
+    height: "535px";
+    object-fit: "cover";
+    object-position: "15% 10%";
+    width: "100%";
+    background-repeat: "no-repeat";
+  }
+  .banner_text {
+    position: absolute;
+    // border: 2px solid purple;
+    width: 50%;
+    top: 10%;
+    left: 5%;
+    @media (max-width: 500px) {
+      //   border: 2px solid purple;
+      width: 95%;
+      left: 0%;
+      padding-left: 10px;
+      top: 7%;
+    }
+    .banner_quote {
+      rotate: 180deg;
+      font-size: 2.5em;
+      color: #e27020;
+    }
+    .text_button {
+      // border: 2px solid orange;
+      padding-left: 60px;
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+      @media (max-width: 500px) {
+        padding-left: 0px;
+        // border: 2px solid green;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      p {
+        font-size: 2.5em;
+        color: #fff;
+        font-weight: 600;
+        padding-top: 0px;
+        @media (max-width: 500px) {
+          font-size: 2em;
+          line-height: 50px;
+        }
+      }
+    }
+  }
+  .banner_message {
+    position: absolute;
+    background: #f4b223;
+    box-shadow: 0px 1px 3px 1px rgba(244, 178, 35, 0.5);
+    border-radius: 5px;
+    width: 90%;
+    height: 300px;
+    top: 90%;
+    left: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    @media (max-width: 500px) {
+      height: 750px;
+    }
+    .banner_message_text h3 {
+      font-size: 24px;
+      font-weight: 400;
+    }
+    .banner_message_logo {
+      display: flex;
+      @media (max-width: 500px) {
+        flex-direction: column;
+        gap: 25px;
+      }
+      div:last-child {
+        border-right: 1px solid #fff;
+      }
+      .logo1,
+      .logo2,
+      .logo3,
+      .logo3,
+      .logo4 {
+        border-left: 1px solid #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 250px;
+        gap: 10px;
+        padding: 10px;
+        @media (max-width: 500px) {
+          border-left: 1px solid #fff;
+          border-right: 1px solid #fff;
+        }
+        &:hover {
+          box-shadow: 0px 1px 3px 1px #fff;
+          // padding:0.1px;
+          transition: all 0.5s ease-out;
+        }
+        h4 {
+          font-weight: 600;
+          text-transform: uppercase;
+          &:hover {
+            color: #e27020;
+          }
+        }
+        p {
+          color: #e27020;
+          font-size: 18px;
+          font-weight: 400;
+        }
+        img {
+          //    border: 2px solid red;
+          width: 60px;
+        }
+      }
+    }
+  }
+}
+
+.navbar_button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  @media (max-width: 500px) {
+    // border: 2px solid red;
+    align-items: flex-start;
+    width: 100%;
+  }
+  @media (max-width: 500px) {
+  }
+  .donation_btn {
+    padding: 15px 20px;
+    border: 2px solid var(--paletteColor1);
+    color: var(--paletteColor1);
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 15px;
+  }
+  .nav_shop_btn {
+    padding: 17px 30px;
+    // min-width: 500px;
+    background: var(--paletteColor1);
+    border: 2px solid var(--paletteColor1);
+    font-weight: 600;
+    color: var(--paletteColor8);
+    font-size: 15px;
+    border: none;
+    border-radius: 3px;
+    height: 100%;
+    &:hover {
+      transform: translateY(-5px);
+      transition: all 0.5s ease-in;
+      box-shadow: 10px 5px 5px var(--paletteHover);
+      background-color: var(--paletteHover);
+    }
+  }
+}
+
+/* 
+================
+NEWS_API_SECTION
+================
+*/
+
+.news_api_section {
+  // border: 2px solid red;
+  margin-top: 250px;
+  .news_api {
+    
+  }
+}

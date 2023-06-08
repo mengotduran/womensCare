@@ -1,0 +1,72 @@
+{
+    "therapy" : [
+    {
+      "id": 1,
+      "description": "General Acupuncture, auricular and cranial",
+      "url": "/images/img 1.jpg"
+    },
+    {
+      "id": 2,
+      "description": "laser therapy, terahertz and infrared",
+      "url": "/images/img 2.jpg"
+    },
+    {
+      "id": 3,
+      "description": "therapies by Ventos",
+      "url": "/images/img 3.jpg"
+    },
+    {
+      "id": 4,
+      "description": "reflexogy, planter",
+      "url": "/images/img 3.jpg"
+    },
+    {
+      "id": 5,
+      "description": "massage therapeutic",
+      "url": "/images/img 3.jpg"
+    },
+    {
+      "id": 6,
+      "description": "Medicine anti-aging",
+      "url": "/images/img 3.jpg"
+    }
+  ],
+    "specialist" : [
+    {
+      "id": 1,
+      "name": "dr. petsoko nossupuwo",
+      "department":"neuro-acunputeur",
+      "url": "/images/img 27.jpg"
+    },
+    {
+      "id": 2,
+      "name": "dr. miriane Lili mbendjou",
+      "department":"holistic medical hospital",
+      "url": "/images/img 32.jpg"
+    },
+    {
+      "id": 3,
+      "name": "m. ignatus buwuis",
+      "department":"machiniste-lipocation",
+      "url": "/images/img 35.jpg"
+    },
+    {
+      "id": 4,
+      "name": "dr. petsoko nossupuwo",
+      "department":"neuro-acunputeur",
+      "url": "/images/img 34.jpg"
+    },
+    {
+      "id": 5,
+      "name": "dr. miriane Lili mbendjou",
+      "department":"holistic medical hospital",
+      "url": "/images/img 28.jpg"
+    },
+    {
+      "id": 6,
+      "name": "m. ignatus buwuis",
+      "department":"machiniste-lipocation",
+      "url": "/images/img 33.jpg"
+    }
+  ]
+}

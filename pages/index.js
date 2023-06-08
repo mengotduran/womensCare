@@ -1,11 +1,9 @@
 import Head from 'next/head';
 import ReactDOM from "react-dom";
 import styles from '../styles/Home.module.css';
-import HoverMenuButton from './hoverMenuButton';
-import "@reach/menu-button/styles.css";
-import "@reach/combobox/styles.css";
+import {HomePage} from '../src/components/home/home-page.jsx';
 
-export default function Home() {
+export default function Home({data}) {
   return (
     <div className={styles.container}>
       <Head>
@@ -13,14 +11,19 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
-       <h2>Hello there  vincent</h2>
-       <HoverMenuButton title="Dropdown 1" />
-      </main>
-
-      <footer>
-        
-      </footer>
+      <HomePage data={data}/>
     </div>
   )
+}
+
+
+export async function getStaticProps() {
+  const {therapy} = await import('/data/data.json')
+  console.log(therapy)
+
+  return {
+    props: {
+      data: therapy,
+    }
+  }
 }
