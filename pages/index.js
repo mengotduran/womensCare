@@ -19,8 +19,6 @@ export default function Home({data}) {
 
 export async function getStaticProps() {
   const {therapy} = await import('/data/data.json')
-  console.log(therapy)
-
   return {
     props: {
       data: therapy,

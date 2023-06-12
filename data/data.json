@@ -2,71 +2,47 @@
     "therapy" : [
     {
       "id": 1,
-      "description": "General Acupuncture, auricular and cranial",
-      "url": "/images/img 1.jpg"
+      "date":"9 juillet 2020",
+      "activity":"education, sport",
+      "title": "Séminaire à IFC",
+      "description": "Encore aujourd’hui, les femmes ne disposent pas des mêmes droits que les hommes….",
+      "url": "/images/img 4.jpg"
     },
     {
       "id": 2,
-      "description": "laser therapy, terahertz and infrared",
-      "url": "/images/img 2.jpg"
+      "date":"17 juin 2020",
+      "activity":"SAUVER UNE VIE, sport",
+      "title": "Image du défilé",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore…",
+      "url": "/images/img 5.jpg"
     },
     {
       "id": 3,
-      "description": "therapies by Ventos",
-      "url": "/images/img 3.jpg"
-    },
-    {
-      "id": 4,
-      "description": "reflexogy, planter",
-      "url": "/images/img 3.jpg"
-    },
-    {
-      "id": 5,
-      "description": "massage therapeutic",
-      "url": "/images/img 3.jpg"
-    },
-    {
-      "id": 6,
-      "description": "Medicine anti-aging",
-      "url": "/images/img 3.jpg"
+      "date":"17 juin 2020",
+      "activity":"SAUVER UNE VIE, sport",
+      "title": "Image du défilé",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore…",
+      "url": "/images/img 6.jpg"
     }
   ],
-    "specialist" : [
+    "Specialist" : [
     {
       "id": 1,
-      "name": "dr. petsoko nossupuwo",
-      "department":"neuro-acunputeur",
-      "url": "/images/img 27.jpg"
+      "name": "Bag",
+      "description":"The woman of our association produce quality bags for you with 100 wax fabrice",
+      "url": "/images/img 9.jpg"
     },
     {
       "id": 2,
-      "name": "dr. miriane Lili mbendjou",
-      "department":"holistic medical hospital",
-      "url": "/images/img 32.jpg"
+      "name": "Jewelry",
+      "description":"The woman of our association produce quality bags for you with 100 wax fabrice",
+      "url": "/images/img 10.jpg"
     },
     {
       "id": 3,
-      "name": "m. ignatus buwuis",
-      "department":"machiniste-lipocation",
-      "url": "/images/img 35.jpg"
-    },
-    {
-      "id": 4,
-      "name": "dr. petsoko nossupuwo",
-      "department":"neuro-acunputeur",
-      "url": "/images/img 34.jpg"
-    },
-    {
-      "id": 5,
-      "name": "dr. miriane Lili mbendjou",
-      "department":"holistic medical hospital",
-      "url": "/images/img 28.jpg"
-    },
-    {
-      "id": 6,
-      "name": "m. ignatus buwuis",
-      "department":"machiniste-lipocation",
-      "url": "/images/img 33.jpg"
+      "name": "Garment",
+      "description":"The woman of our association produce quality bags for you with 100 wax fabrice",
+      "url": "/images/img 11.jpg"
     }
   ]
 }

@@ -1,7 +1,6 @@
 import React, {component} from 'react';
 import { Header } from '../../src/components/header/header';
-// import { Header } from '../src/components/header/header';
-// import { Footer } from '../src/components/footer/footer';
+import { Footer } from '../../src/components/footer/footer';
 
 const MainLayout = ({ children}) => {
     return (
@@ -10,7 +9,7 @@ const MainLayout = ({ children}) => {
                 <main>
                     {children}
                 </main>
-            {/* <Footer /> */}
+            <Footer />
         </>
     )
 }
