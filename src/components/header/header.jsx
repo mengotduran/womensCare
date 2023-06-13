@@ -2,7 +2,7 @@ import { FaFacebook } from "react-icons/fa";
 import { RiInstagramFill } from "react-icons/ri";
 import HoverMenuButton from "../../../pages/hoverMenuButton";
 import "@reach/menu-button/styles.css";
-import "@reach/combobox/styles.css";
+// import "@reach/combobox/styles.css";
 import { FiShoppingBag } from "react-icons/fi";
 import Modal from "../../../pages/modal/modal";
 import { CiSearch } from "react-icons/ci";
