@@ -32,24 +32,6 @@ export default function ElasticCarousel() {
           }, 4000); // same time
         }}
       >
-        {/* <div className={styles.carousel_solidary}></div>
-          <div className={styles.carousel_solidary_img_box}>
-          {data01?.map((ev) => (
-            <>
-              <img
-                src={ev.url}
-                style={{ width: "400px" }}
-                key={ev.id}
-                className={styles.carousel_solidary_box}
-              />
-              <div className={styles.carousel_solidary_box}>
-                <h3>{ev.name}<span>afritude</span></h3>
-                <p>{ev.description}</p>
-                <div>Visit the store</div>
-              </div>
-            </>
-          ))}
-          </div> */}
         {data01?.map((ev) => (
           <div className={styles.carousel_solidary_img_box}>
             <img
