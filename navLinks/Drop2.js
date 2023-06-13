@@ -1,6 +1,7 @@
 import React, { useEffect, useLayoutEffect, useRef, useState } from "react";
 import { Menu, MenuButton, MenuList, MenuItem } from "@reach/menu-button";
 import { RiArrowDropDownLine } from "react-icons/ri";
+import Link from "next/link";
 
 export default function Drop2(props) {
   let { title } = props;
@@ -64,14 +65,14 @@ export default function Drop2(props) {
             setIsOpen(false);
           }}
         >
-          Action 1
+          <Link href="/dropdownPages/campaign">Our Campaigns</Link>
         </MenuItem>
         <MenuItem
           onSelect={() => {
             setIsOpen(false);
           }}
         >
-          Action 2
+          Our Projects
         </MenuItem>
         <MenuItem
           onSelect={() => {

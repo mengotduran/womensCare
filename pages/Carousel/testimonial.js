@@ -13,7 +13,6 @@ const breakPoints = [
 
 export default function Testimonial({ data }) {
   const testimonials = Testimonials;
-  console.log(testimonials);
   const carouselRef = useRef(null);
   let resetTimeout;
   return (
@@ -58,7 +57,6 @@ export async function getStaticProps() {
   const jsonData = await fsPromises.readFile(filePath);
   const objectData = JSON.parse(jsonData);
 
-  console.log(objectData);
 
   return {
     props: {

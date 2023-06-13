@@ -14,7 +14,7 @@ export const Footer = () => {
           <div className="footer_txt_icon">
             <div className="footer_icon">
               <img
-                src="images/logo 7.png"
+                src="/images/logo 7.png"
                 alt="image not found"
                 // style={{ width: "200px" }}
               />
