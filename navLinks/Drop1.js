@@ -37,7 +37,7 @@ export default function Drop1() {
                             height: "60px",
                           }}
                         >
-                          <Link href="/Regards/presentation">
+                          <Link href="/dropdownPages/campaign">
                             PRESENTATION OF HOLISTIC HOSPITAL
                           </Link>
                         </Dropdown.Item>

@@ -11,8 +11,8 @@ const breakPoints = [
   { width: 1200, itemsToShow: 3 },
 ];
 
-export default function Testimonial({ data }) {
-  const testimonials = Testimonials;
+export default function Testimonial() {
+  const items = Testimonials;
   const carouselRef = useRef(null);
   let resetTimeout;
   return (
@@ -33,7 +33,7 @@ export default function Testimonial({ data }) {
         }}
         className="carousel"
       >
-        {testimonials?.map((ev) => (
+        {items?.map((ev) => (
         <div className={styles.testimonial_txt_box}>
           <div className={styles.testimonial_txt_div}>
             <FaQuoteLeft className={styles.testimonial_quote} />
@@ -50,17 +50,17 @@ export default function Testimonial({ data }) {
   );
 }
 
-export async function getStaticProps() {
-  // const {testimonial} = await import('/data/testimonial.json')
-  // console.log(testimonial)
-  const filePath = path.join(process.cwd(), "/data/testimonial.json");
-  const jsonData = await fsPromises.readFile(filePath);
-  const objectData = JSON.parse(jsonData);
+// export async function getStaticProps() {
+//   // const {testimonial} = await import('/data/testimonial.json')
+//   // console.log(testimonial)
+//   const filePath = path.join(process.cwd(), "/data/testimonial.json");
+//   const jsonData = await fsPromises.readFile(filePath);
+//   const objectData = JSON.parse(jsonData);
 
 
-  return {
-    props: {
-      data: objectData,
-    },
-  };
-}
+//   return {
+//     props: {
+//       data: objectData,
+//     },
+//   };
+// }
