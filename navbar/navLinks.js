@@ -27,9 +27,7 @@ export default function NavLinks() {
     <>
       <div className="nav_links">
         <div className="about_them_text">
-          {/* <span>about them</span>  */}
-          about them
-          {/* <div className="nav_border"></div> */}
+          <h3>about them</h3>
         </div>
         <div className="nav_dropdown">
           <Drop1 title="NEWS" />

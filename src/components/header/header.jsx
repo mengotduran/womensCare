@@ -19,7 +19,7 @@ export const Header = () => {
               <RiInstagramFill className="social_media"/>
             </div>
             <div className="lang_dropdown">
-              <HoverMenuButton title="Language"/>
+              <HoverMenuButton/>
             </div>
           </div>
           <div className="shopping_cart">

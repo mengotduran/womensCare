@@ -430,7 +430,7 @@ HEADER STYLES
         align-items: center;
         height: 100%;
         gap: 15px;
-        // border: 2px solid red;
+        // border: .5px solid red;
         @media (max-width: 500px) {
           display: none;
         }
@@ -440,11 +440,14 @@ HEADER STYLES
           text-transform: uppercase;
           cursor: pointer;
           border: 2px solid transparent;
-          padding: 0 0 3px 0;
-          &:hover {
-            box-shadow: inset 0 -2px 0 0 var(--paletteColor1);
-            color: var(--paletteColor1);
-            transition: all 0.3s ease-out;
+          h3 {
+            padding: 0 0 3px 0;
+            color: rgb(83, 82, 82);
+            &:hover {
+              box-shadow: inset 0 -2px 0 0 var(--paletteColor1);
+              color: var(--paletteColor1);
+              transition: all 0.3s ease-out;
+            }
           }
         }
         .nav_dropdown {
